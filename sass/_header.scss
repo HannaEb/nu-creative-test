@@ -10,6 +10,34 @@
 
   @include page-width;
 
+  &__logo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo-image {
+    position: relative;
+  }
+
+  &__logo-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    filter: drop-shadow(0 11.75px 26.7px rgba(251, 15, 90, 0.25));
+  }
+
+  &__logo-icon {
+    position: absolute;
+    top: 15.47px;
+    left: 24.32px;
+  }
+
+  &__logo-text {
+    margin-left: 10px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
   &__nav-box {
     display: flex;
   }
