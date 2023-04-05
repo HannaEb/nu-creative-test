@@ -1,12 +1,11 @@
-.section-hero {
+.hero {
+  @include page-width;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 200px;
 
-  @include page-width;
-}
-
-.hero {
   &__text-box {
     width: 600px;
     padding-right: 75px;

@@ -13,6 +13,8 @@ body {
   margin: 0 auto; }
 
 .header {
+  width: 1180px;
+  margin: 0 auto;
   height: 130px;
   margin-bottom: 200px; }
 
@@ -20,9 +22,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 130px;
-  width: 1180px;
-  margin: 0 auto; }
+  height: 130px; }
   .navbar__logo-box {
     display: flex;
     justify-content: space-between;
@@ -77,34 +77,31 @@ body {
     top: 22px;
     left: 143px; }
 
-.section-hero {
+.hero {
+  width: 1180px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1180px;
-  margin: 0 auto; }
-
-.hero__text-box {
-  width: 600px;
-  padding-right: 75px; }
-  .hero__text-box--span {
-    color: #fb0f5a; }
-
-.hero__text {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 28px;
-  margin-top: 22px;
-  margin-bottom: 62px;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); }
-
-.hero__image-box {
-  position: relative; }
-
-.hero__image {
-  border-radius: 10px;
-  border-bottom-right-radius: 200px;
-  display: inline-block; }
+  margin-bottom: 200px; }
+  .hero__text-box {
+    width: 600px;
+    padding-right: 75px; }
+    .hero__text-box--span {
+      color: #fb0f5a; }
+  .hero__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 22px;
+    margin-bottom: 62px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); }
+  .hero__image-box {
+    position: relative; }
+  .hero__image {
+    border-radius: 10px;
+    border-bottom-right-radius: 200px;
+    display: inline-block; }
 
 .follow-btn-hero {
   background-color: #fb0f5a;
@@ -212,26 +209,22 @@ body {
   top: 200px;
   left: -55px; }
 
-.section-stats {
-  height: 246px;
-  width: 1180px;
-  margin: 0 auto; }
-
 .stats {
+  width: 1180px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin-top: 200px;
   height: 246px; }
-  box-shadow .stats__text--main {
+  .stats__text--main {
     font-size: 62px;
     line-height: 62px;
     font-weight: 800;
     margin-bottom: 10px; }
-  box-shadow .stats__text--span {
+  .stats__text--span {
     color: #fb0f5a; }
-  box-shadow .stats__text--sub {
+  .stats__text--sub {
     color: #474459;
     font-size: 25px;
     line-height: 32px; }

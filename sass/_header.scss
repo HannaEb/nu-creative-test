@@ -1,4 +1,6 @@
 .header {
+  @include page-width;
+
   height: 130px;
   margin-bottom: 200px;
 }
@@ -8,8 +10,6 @@
   justify-content: space-between;
   align-items: center;
   height: 130px;
-
-  @include page-width;
 
   &__logo-box {
     display: flex;
