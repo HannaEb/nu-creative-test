@@ -1,0 +1,31 @@
+.section-stats {
+  height: 246px;
+  //
+  @include page-width;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  height: 246px;
+
+  &__text {
+    &--main {
+      font-size: 62px;
+      line-height: 62px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+    &--span {
+      color: $color-primary;
+    }
+    &--sub {
+      color: $color-grey;
+      font-size: 25px;
+      line-height: 32px;
+    }
+  }
+}

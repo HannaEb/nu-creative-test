@@ -213,6 +213,30 @@ body {
   top: 200px;
   left: -55px; }
 
+.section-stats {
+  height: 246px;
+  width: 1180px;
+  margin: 0 auto; }
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  height: 246px; }
+  .stats__text--main {
+    font-size: 62px;
+    line-height: 62px;
+    font-weight: 800;
+    margin-bottom: 10px; }
+  .stats__text--span {
+    color: #fb0f5a; }
+  .stats__text--sub {
+    color: #474459;
+    font-size: 25px;
+    line-height: 32px; }
+
 body {
   font-family: "Montserrat", sans-serif; }
 
