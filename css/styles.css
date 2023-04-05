@@ -39,8 +39,7 @@ body {
     top: 15.47px;
     left: 24.32px; }
   .navbar__logo-text {
-    margin-left: 10px;
-    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); }
+    margin-left: 10px; }
   .navbar__nav-box {
     display: flex; }
   .navbar__nav-item {
@@ -225,14 +224,14 @@ body {
   text-align: center;
   margin-top: 200px;
   height: 246px; }
-  .stats__text--main {
+  box-shadow .stats__text--main {
     font-size: 62px;
     line-height: 62px;
     font-weight: 800;
     margin-bottom: 10px; }
-  .stats__text--span {
+  box-shadow .stats__text--span {
     color: #fb0f5a; }
-  .stats__text--sub {
+  box-shadow .stats__text--sub {
     color: #474459;
     font-size: 25px;
     line-height: 32px; }
