@@ -56,4 +56,36 @@
     font-size: 18px;
     line-height: 28px;
   }
+
+  .follow-btn {
+    background-color: $color-primary;
+    padding: 18px 56px 18px 36px;
+    border: none;
+    border-radius: 46px;
+    filter: drop-shadow(0 16px 24px rgba(251, 15, 90, 0.25));
+    position: relative;
+    top: 0;
+    left: 0;
+
+    &__text {
+      color: $color-white;
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 800;
+    }
+
+    &__icon {
+      &--horizontal {
+        position: absolute;
+        top: 27px;
+        left: 138px;
+      }
+
+      &--vertical {
+        position: absolute;
+        top: 22px;
+        left: 143px;
+      }
+    }
+  }
 }
