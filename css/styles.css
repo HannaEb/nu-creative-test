@@ -51,28 +51,29 @@ body {
     color: #000000;
     font-size: 18px;
     line-height: 28px; }
-  .navbar .follow-btn {
-    background-color: #fb0f5a;
-    padding: 18px 56px 18px 36px;
-    border: none;
-    border-radius: 46px;
-    filter: drop-shadow(0 16px 24px rgba(251, 15, 90, 0.25));
-    position: relative;
-    top: 0;
-    left: 0; }
-    .navbar .follow-btn__text {
-      color: #ffffff;
-      font-size: 18px;
-      line-height: 22px;
-      font-weight: 800; }
-    .navbar .follow-btn__icon--horizontal {
-      position: absolute;
-      top: 27px;
-      left: 138px; }
-    .navbar .follow-btn__icon--vertical {
-      position: absolute;
-      top: 22px;
-      left: 143px; }
+
+.follow-btn {
+  background-color: #fb0f5a;
+  padding: 18px 56px 18px 36px;
+  border: none;
+  border-radius: 46px;
+  filter: drop-shadow(0 16px 24px rgba(251, 15, 90, 0.25));
+  position: relative;
+  top: 0;
+  left: 0; }
+  .follow-btn__text {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 800; }
+  .follow-btn__icon--horizontal {
+    position: absolute;
+    top: 27px;
+    left: 138px; }
+  .follow-btn__icon--vertical {
+    position: absolute;
+    top: 22px;
+    left: 143px; }
 
 .section-hero {
   display: flex;
@@ -97,7 +98,7 @@ body {
 
 .follow-btn {
   background-color: #fb0f5a;
-  padding: 18px 56px 18px 36px;
+  padding: 26px 64px 26px 33px;
   border: none;
   border-radius: 46px;
   filter: drop-shadow(0 16px 24px rgba(251, 15, 90, 0.25));
@@ -111,11 +112,11 @@ body {
     font-weight: 800; }
   .follow-btn__icon--horizontal {
     position: absolute;
-    top: 27px;
+    top: 35px;
     left: 138px; }
   .follow-btn__icon--vertical {
     position: absolute;
-    top: 22px;
+    top: 30px;
     left: 143px; }
 
 .contact-btn {
