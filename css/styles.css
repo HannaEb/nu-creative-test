@@ -52,6 +52,8 @@ body {
     color: #000000;
     font-size: 18px;
     line-height: 28px; }
+    .navbar__nav-link.active {
+      font-weight: 800; }
 
 .follow-btn {
   background-color: #fb0f5a;
