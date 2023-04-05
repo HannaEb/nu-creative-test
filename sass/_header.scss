@@ -9,4 +9,23 @@
   height: 130px;
 
   @include page-width;
+
+  &__nav-box {
+    display: flex;
+  }
+
+  &__nav-item {
+    list-style: none;
+
+    &:not(:last-child) {
+      margin-right: 41px;
+    }
+  }
+
+  &__nav-link {
+    text-decoration: none;
+    color: $color-black;
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
