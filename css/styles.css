@@ -55,7 +55,7 @@ body {
     .navbar__nav-link.active {
       font-weight: 800; }
 
-.follow-btn {
+.follow-btn-header {
   background-color: #fb0f5a;
   padding: 18px 56px 18px 36px;
   border: none;
@@ -64,16 +64,16 @@ body {
   position: relative;
   top: 0;
   left: 0; }
-  .follow-btn__text {
+  .follow-btn-header__text {
     color: #ffffff;
     font-size: 18px;
     line-height: 22px;
     font-weight: 800; }
-  .follow-btn__icon--horizontal {
+  .follow-btn-header__icon--horizontal {
     position: absolute;
     top: 27px;
     left: 138px; }
-  .follow-btn__icon--vertical {
+  .follow-btn-header__icon--vertical {
     position: absolute;
     top: 22px;
     left: 143px; }
@@ -107,7 +107,7 @@ body {
   border-bottom-right-radius: 200px;
   display: inline-block; }
 
-.follow-btn {
+.follow-btn-hero {
   background-color: #fb0f5a;
   padding: 26px 64px 26px 33px;
   border: none;
@@ -116,16 +116,16 @@ body {
   position: relative;
   top: 0;
   left: 0; }
-  .follow-btn__text {
+  .follow-btn-hero__text {
     color: #ffffff;
     font-size: 18px;
     line-height: 22px;
     font-weight: 800; }
-  .follow-btn__icon--horizontal {
+  .follow-btn-hero__icon--horizontal {
     position: absolute;
     top: 35px;
     left: 138px; }
-  .follow-btn__icon--vertical {
+  .follow-btn-hero__icon--vertical {
     position: absolute;
     top: 30px;
     left: 143px; }
