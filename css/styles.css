@@ -27,23 +27,6 @@ main {
   justify-content: space-between;
   align-items: center;
   height: 130px; }
-  .navbar__logo-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .navbar__logo-image {
-    position: relative; }
-  .navbar__logo-background {
-    position: relative;
-    top: 0;
-    left: 0;
-    filter: drop-shadow(0 11.75px 26.7px rgba(251, 15, 90, 0.25)); }
-  .navbar__logo-icon {
-    position: absolute;
-    top: 15.47px;
-    left: 24.32px; }
-  .navbar__logo-text {
-    margin-left: 10px; }
   .navbar__nav-box {
     display: flex; }
   .navbar__nav-item {
@@ -212,6 +195,24 @@ main {
   position: absolute;
   top: 200px;
   left: -55px; }
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .logo__image {
+    position: relative; }
+    .logo__image--background {
+      position: relative;
+      top: 0;
+      left: 0;
+      filter: drop-shadow(0 11.75px 26.7px rgba(251, 15, 90, 0.25)); }
+    .logo__image--icon {
+      position: absolute;
+      top: 15.47px;
+      left: 24.32px; }
+  .logo__text {
+    margin-left: 10px; }
 
 .stats {
   width: 1180px;

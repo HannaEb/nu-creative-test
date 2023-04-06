@@ -11,33 +11,6 @@
   align-items: center;
   height: 130px;
 
-  &__logo-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &__logo-image {
-    position: relative;
-  }
-
-  &__logo-background {
-    position: relative;
-    top: 0;
-    left: 0;
-    filter: drop-shadow(0 11.75px 26.7px $color-shadow-primary-large);
-  }
-
-  &__logo-icon {
-    position: absolute;
-    top: 15.47px;
-    left: 24.32px;
-  }
-
-  &__logo-text {
-    margin-left: 10px;
-  }
-
   &__nav-box {
     display: flex;
   }

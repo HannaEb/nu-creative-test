@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__image {
+    position: relative;
+
+    &--background {
+      position: relative;
+      top: 0;
+      left: 0;
+      filter: drop-shadow(0 11.75px 26.7px $color-shadow-primary-large);
+    }
+
+    &--icon {
+      position: absolute;
+      top: 15.47px;
+      left: 24.32px;
+    }
+  }
+
+  &__text {
+    margin-left: 10px;
+  }
+}
