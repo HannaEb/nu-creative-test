@@ -2,12 +2,24 @@
   @include page-width;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   align-items: center;
   text-align: center;
   height: 246px;
+  width: 1390px;
+  margin-bottom: 200px;
+  margin-left: -100px;
+  overflow: hidden;
+  border-radius: 43px;
+  box-shadow: 0 14px 34px $color-shadow-primary-small;
 
   &__text {
+    margin-right: 136px;
+
+    &:last-child {
+      margin-right: 93px;
+    }
+
     &--main {
       font-size: 62px;
       line-height: 62px;

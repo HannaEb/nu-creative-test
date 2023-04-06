@@ -4,7 +4,9 @@ $color-black: #000000;
 $color-grey: #474459;
 $color-white: #ffffff;
 $color-primary: #fb0f5a;
-$color-shadow-primary: rgba(251, 15, 90, 0.25);
+$color-shadow-primary-large: rgba(251, 15, 90, 0.25);
+$color-shadow-primary-medium: rgba(251, 15, 90, 0.1);
+$color-shadow-primary-small: rgba(251, 15, 90, 0.06);
 $color-shadow-black: rgba(0, 0, 0, 0.25);
 
 // Mixins

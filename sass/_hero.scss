@@ -40,7 +40,7 @@
   padding: 26px 64px 26px 33px;
   border: none;
   border-radius: 46px;
-  filter: drop-shadow(0 16px 24px $color-shadow-primary);
+  filter: drop-shadow(0 16px 24px $color-shadow-primary-large);
   position: relative;
   top: 0;
   left: 0;
@@ -76,7 +76,7 @@
   border: none;
   padding: 26px 44px;
   border-radius: 164px;
-  filter: drop-shadow(0 4px 24px $color-shadow-primary);
+  filter: drop-shadow(0 4px 24px $color-shadow-primary-medium);
   margin-left: 26px;
 }
 

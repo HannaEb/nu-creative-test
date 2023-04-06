@@ -12,6 +12,10 @@ body {
   width: 1440px;
   margin: 0 auto; }
 
+main {
+  width: inherit;
+  overflow: hidden; }
+
 .header {
   width: 1180px;
   margin: 0 auto;
@@ -135,7 +139,7 @@ body {
   border: none;
   padding: 26px 44px;
   border-radius: 164px;
-  filter: drop-shadow(0 4px 24px rgba(251, 15, 90, 0.25));
+  filter: drop-shadow(0 4px 24px rgba(251, 15, 90, 0.1));
   margin-left: 26px; }
 
 #hero__vector--one {
@@ -213,22 +217,31 @@ body {
   width: 1180px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   align-items: center;
   text-align: center;
   height: 246px;
-  box-shadow: 10px 10px rgba(251, 15, 90, 0.06); }
-  .stats__text--main {
-    font-size: 62px;
-    line-height: 62px;
-    font-weight: 800;
-    margin-bottom: 10px; }
-  .stats__text--span {
-    color: #fb0f5a; }
-  .stats__text--sub {
-    color: #474459;
-    font-size: 25px;
-    line-height: 32px; }
+  width: 1390px;
+  margin-bottom: 200px;
+  margin-left: -100px;
+  overflow: hidden;
+  border-radius: 43px;
+  box-shadow: 0 14px 34px rgba(251, 15, 90, 0.06); }
+  .stats__text {
+    margin-right: 136px; }
+    .stats__text:last-child {
+      margin-right: 93px; }
+    .stats__text--main {
+      font-size: 62px;
+      line-height: 62px;
+      font-weight: 800;
+      margin-bottom: 10px; }
+    .stats__text--span {
+      color: #fb0f5a; }
+    .stats__text--sub {
+      color: #474459;
+      font-size: 25px;
+      line-height: 32px; }
 
 body {
   font-family: "Montserrat", sans-serif; }
