@@ -21,7 +21,7 @@
     line-height: 28px;
     margin-top: 22px;
     margin-bottom: 62px;
-    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0 4px 4px $color-shadow-black);
   }
 
   &__image-box {
@@ -40,7 +40,7 @@
   padding: 26px 64px 26px 33px;
   border: none;
   border-radius: 46px;
-  filter: drop-shadow(0 16px 24px rgba(251, 15, 90, 0.25));
+  filter: drop-shadow(0 16px 24px $color-shadow-primary);
   position: relative;
   top: 0;
   left: 0;
@@ -76,7 +76,7 @@
   border: none;
   padding: 26px 44px;
   border-radius: 164px;
-  filter: drop-shadow(0 4px 24px rgba(251, 15, 90, 0.1));
+  filter: drop-shadow(0 4px 24px $color-shadow-primary);
   margin-left: 26px;
 }
 

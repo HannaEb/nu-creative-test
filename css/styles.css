@@ -135,7 +135,7 @@ body {
   border: none;
   padding: 26px 44px;
   border-radius: 164px;
-  filter: drop-shadow(0 4px 24px rgba(251, 15, 90, 0.1));
+  filter: drop-shadow(0 4px 24px rgba(251, 15, 90, 0.25));
   margin-left: 26px; }
 
 #hero__vector--one {
@@ -216,7 +216,8 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  height: 246px; }
+  height: 246px;
+  box-shadow: 10px 10px rgba(251, 15, 90, 0.06); }
   .stats__text--main {
     font-size: 62px;
     line-height: 62px;
